@@ -1,0 +1,8 @@
+- What is the difference between ***var*** and ***let***?
+    var and let can be reassigned, but only var can be redeclared with the same variable name. Let creates a block scope variable
+- What is the difference between ***var*** and ***const***?
+    var can be reassigned, but const cannot be reassigned or redeclared once set. Const is also a block scoped variable.
+- What is the difference between  and ?
+    Let can be reassigned, but const cannot.
+- What is hoisting?
+    Hoisting is when a variable gets automatically declared before initilization to prevent a reference error, but returns undefined if used before declaration.
